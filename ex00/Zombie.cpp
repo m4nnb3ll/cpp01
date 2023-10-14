@@ -6,22 +6,25 @@
 /*   By: abelayad <abelayad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 12:16:18 by abelayad          #+#    #+#             */
-/*   Updated: 2023/10/02 12:30:56 by abelayad         ###   ########.fr       */
+/*   Updated: 2023/10/14 21:28:39 by abelayad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Zombie.hpp"
 
+Zombie::Zombie() : name("Undefined") {}
+
 Zombie::Zombie(const std::string zombieName)
 {
-	m_name = zombieName;
+	this->name = zombieName;
 }
+
 Zombie::~Zombie()
 {
-	std::cout << m_name << " is history." << std::endl;
+	std::cout << this->name << " is history." << std::endl;
 }
 
 void	Zombie::announce(void)
 {
-	std::cout << m_name << ": BraiiiiiiinnnzzzZ..." << std::endl;
+	std::cout << this->name << ": BraiiiiiiinnnzzzZ..." << std::endl;
 }

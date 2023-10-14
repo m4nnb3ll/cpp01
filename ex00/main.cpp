@@ -6,7 +6,7 @@
 /*   By: abelayad <abelayad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 10:59:22 by abelayad          #+#    #+#             */
-/*   Updated: 2023/10/02 12:31:12 by abelayad         ###   ########.fr       */
+/*   Updated: 2023/10/14 21:56:00 by abelayad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,11 @@
 
 int main()
 {
-	Zombie *tst;
+	Zombie *test;
 
-	tst = newZombie("zombie1");
-	tst->announce();
-	delete tst;
+	test = newZombie("zombie1");
+	test->announce();
+	delete test;
 	randomChump("zombie2");
 	return (0);
 }

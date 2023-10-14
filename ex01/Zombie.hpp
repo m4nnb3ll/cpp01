@@ -11,7 +11,7 @@ public:
 	void	announce(void);
 	void	setName(const std::string &zombieName);
 private:
-	std::string	m_name;
+	std::string	name;
 };
 
 Zombie	*zombieHorde(int N, std::string name);

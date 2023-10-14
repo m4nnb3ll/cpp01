@@ -9,6 +9,7 @@ public:
 	void	attack(void) const;
 	void	setWeapon(Weapon &weapon);
 private:
+	HumanA();
 	Weapon				&weapon;
 	const std::string	&name;
 };
