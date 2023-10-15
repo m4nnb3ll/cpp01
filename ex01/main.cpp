@@ -6,7 +6,7 @@
 /*   By: abelayad <abelayad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 10:59:22 by abelayad          #+#    #+#             */
-/*   Updated: 2023/10/02 13:32:31 by abelayad         ###   ########.fr       */
+/*   Updated: 2023/10/15 10:30:28 by abelayad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int main()
 {
-	Zombie *zhorde;
 	int		zombieNum;
+	Zombie	*zhorde;
 
 	zombieNum = 42;
 	zhorde = zombieHorde(zombieNum, "Joe Doe");
