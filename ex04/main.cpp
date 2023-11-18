@@ -6,7 +6,7 @@
 /*   By: abelayad <abelayad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 15:32:01 by abelayad          #+#    #+#             */
-/*   Updated: 2023/10/14 22:52:26 by abelayad         ###   ########.fr       */
+/*   Updated: 2023/11/18 21:38:23 by abelayad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@
 std::string	myReplace(const std::string& lineToReplace, const std::string& pattern, const std::string& patch)
 {
 	std::string	res;
-	int	startPos = 0;
-	int	foundPos;
+	int			startPos = 0;
+	size_t		foundPos;
 
 	while ((foundPos = lineToReplace.find(pattern, startPos)) != std::string::npos)
 	{

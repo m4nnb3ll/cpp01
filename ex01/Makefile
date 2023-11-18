@@ -1,14 +1,14 @@
 NAME = moar
 
 CC = c++
-CFLAGS = -Wall -Werror -Wextra -std=c++98
+CXXFLAGS = -Wall -Werror -Wextra -std=c++98
 
 SRCS = main.cpp Zombie.cpp zombieHorde.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
 $(NAME): $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) -o $(NAME)
+	$(CC) $(OBJS) -o $(NAME)
 
 all: $(NAME)
 

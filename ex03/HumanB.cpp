@@ -2,7 +2,7 @@
 #include "HumanB.hpp"
 
 HumanB::HumanB(const std::string &name)
-	:	name(name), weapon(nullptr)
+	:	weapon(nullptr), name(name)
 {
 }
 
